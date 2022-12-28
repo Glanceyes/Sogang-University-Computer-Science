@@ -1,0 +1,23 @@
+The fmt command in Unix is used to format natural language text for humans to read. 
+  It has been traditionally used to reformat email messages after composition and prior to delivery. 
+Its syntax is similar among
+various Unixes, but not identical.
+      fmt attempts to break, 
+fill and join input lines to produce globally optimal, 
+balanced output with the lengths of each line approaching the target width as closely as possible, 
+rather than wrapping the input lines exactly as fold (from GNU Core Utilities) does.
+
+
+  In most implementations of fmt, the word wrap optimization procedure
+usually requires two criteria: the target output line width,
+and the maximum acceptable line width (which should be larger than the previous one to give room for optimization). 
+It might be not always possible to give these two options simultaneously. 
+  For example, early versions of GNU fmt can only accept the maximum width option, 
+which is given by -w switch, or directly 
+-digits as the first command line option for compatibility. 
+(Later versions use -g to specify the goal width and -w for the maximum width.) 
+  See the Solaris man page for fmt and FreeBSD manual entry for fmt for detailed examples, and compare with the latest documentation of GNU fmt utility included by most Linux distributions. 
+  See also the Plan 9 fmt man page.
+
+
+Unlike par, fmt has no Unicode support, and does not support text justification.

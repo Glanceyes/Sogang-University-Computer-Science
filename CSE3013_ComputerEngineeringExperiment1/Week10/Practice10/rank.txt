@@ -1,0 +1,11 @@
+5
+
+Jacob	200
+
+Park	100
+
+Kim	70
+
+Jacob	40
+
+Chris	30

@@ -1,0 +1,42 @@
+echo "출력 (or 형식)"
+if [ $# -eq 0 ]
+then
+	echo 'Usage: phone searchfor [... searchfor]'
+	echo "(You didn't tell me what you want to search for.)"
+else
+	str=""
+	for i in $*
+	do
+		if [ -z $str ]
+		then
+			str="$i"
+		else
+			str="$str|$i"
+		fi
+	done
+	egrep "$str" mydata | awk -f display.awk
+fi
+
+echo "출력 (and 형식)"
+if [ $# -eq 0 ]
+then
+	echo 'Usage: phone searchfor [... searchfor]'
+	echo "(You didn't tell me what you want to search for.)"
+else
+	flag=0
+	for i in $*
+	do
+		if [ $flag -eq 0 ]
+		then
+			egrep "$i" mydata > temp1
+			flag=1
+		else
+			egrep "$i" temp1 > temp2
+			cat temp2 > temp1
+			rm temp2
+		fi
+	done
+	cat temp1 | awk -f display.awk
+	rm temp1
+fi
+exit 0

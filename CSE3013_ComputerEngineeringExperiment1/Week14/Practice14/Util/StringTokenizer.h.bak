@@ -1,0 +1,49 @@
+#ifndef __STRING_TOKENIZER_H__
+#define __STRING_TOKENIZER_H__
+
+#define STRING_BUFFER_SIZE		128
+#define MAX_TOKEN_SIZE			64
+
+class CStringTokenizer
+{
+public:
+	CStringTokenizer() : m_pFile(NULL) {};
+	~CStringTokenizer() { if (m_pFile) fclose(m_pFile); };
+
+	void initialize()
+	{ m_nBufIdx = 0; m_cBuffer[0] = '\0'; m_cToken[0] = '\0'; };
+
+	bool openFile(const char* pszFileName)
+	{
+			if (NULL == (m_pFile = fopen(pszFileName, "rt")))
+				return false;
+			initialize();
+			prepareNext();
+			return true;
+	};
+
+	void closeFile()
+	{ fclose(m_pFile); m_pFile = NULL; };
+
+	bool hasNext()
+	{ return (m_cNext[0] != '\0'); };
+
+	const char* getNext()
+	{
+		if (m_cNext[0] == '\0') return NULL;
+		strcpy(m_cToken, m_cNext);
+		prepareNext();
+		return m_cToken;
+	};
+
+	void prepareNext();
+
+public:
+	FILE* m_pFile;
+	int m_nBufIdx;
+	char m_cBuffer[STRING_BUFFER_SIZE];
+	char m_cToken[MAX_TOKEN_SIZE];
+	char m_cNext[MAX_TOKEN_SIZE];
+};
+
+#endif	// __STRING_TOKENIZER_H__

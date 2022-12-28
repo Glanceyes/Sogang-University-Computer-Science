@@ -1,0 +1,104 @@
+﻿Build started 2018-12-23 오후 11:26:47.
+     1>Project "D:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\MFC_Main.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\MFC_Main.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GRAPHICS_BUFFERED /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/MFC_Main.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GRAPHICS_BUFFERED /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ExternDoc.cpp ExternView.cpp MainFrm.cpp MFC_Main.cpp MFC_MainDoc.cpp MFC_MainView.cpp Graphics\Clipping.cpp Graphics\DrawFunc.cpp Ui\MsgView.cpp Ui\RubberBand.cpp Ui\Scroll.cpp Ui\Zoom.cpp "User Code\usercode.cpp" Util\Math.cpp Util\StringTokenizer.cpp Example\Example.cpp
+         Example.cpp
+         StringTokenizer.cpp
+         Math.cpp
+         usercode.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>d:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\user code\usercode.cpp(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>d:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\user code\usercode.cpp(60): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 'fscanf' 선언을 참조하십시오.
+     1>d:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\user code\usercode.cpp(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>d:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\user code\usercode.cpp(96): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 'fscanf' 선언을 참조하십시오.
+         Zoom.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Scroll.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         RubberBand.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MsgView.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         DrawFunc.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Clipping.cpp
+         MFC_MainView.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MFC_MainDoc.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MFC_Main.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MainFrm.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         ExternView.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         ExternDoc.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0412" /nologo /fo".\Debug\MFC_Main.res" MFC_Main.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\MFC_Main.exe.embed.manifest.res" .\Debug\MFC_Main_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/MFC_Main.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\MFC_Main.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/MFC_Main.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\MFC_Main.lib" /MACHINE:X86 .\Debug\MFC_Main.res
+         .\Debug\MFC_Main.exe.embed.manifest.res
+         .\Debug/ExternDoc.obj
+         .\Debug/ExternView.obj
+         .\Debug/MainFrm.obj
+         .\Debug/MFC_Main.obj
+         .\Debug/MFC_MainDoc.obj
+         .\Debug/MFC_MainView.obj
+         .\Debug/StdAfx.obj
+         .\Debug/Clipping.obj
+         .\Debug/DrawFunc.obj
+         .\Debug/MsgView.obj
+         .\Debug/RubberBand.obj
+         .\Debug/Scroll.obj
+         .\Debug/Zoom.obj
+         .\Debug/usercode.obj
+         .\Debug/Math.obj
+         .\Debug/StringTokenizer.obj
+         .\Debug/Example.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\MFC_Main.exe.embed.manifest" /manifest .\Debug\MFC_Main.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\MFC_Main.exe.embed.manifest.res" .\Debug\MFC_Main_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/MFC_Main.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\MFC_Main.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/MFC_Main.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\MFC_Main.lib" /MACHINE:X86 .\Debug\MFC_Main.res
+         .\Debug\MFC_Main.exe.embed.manifest.res
+         .\Debug/ExternDoc.obj
+         .\Debug/ExternView.obj
+         .\Debug/MainFrm.obj
+         .\Debug/MFC_Main.obj
+         .\Debug/MFC_MainDoc.obj
+         .\Debug/MFC_MainView.obj
+         .\Debug/StdAfx.obj
+         .\Debug/Clipping.obj
+         .\Debug/DrawFunc.obj
+         .\Debug/MsgView.obj
+         .\Debug/RubberBand.obj
+         .\Debug/Scroll.obj
+         .\Debug/Zoom.obj
+         .\Debug/usercode.obj
+         .\Debug/Math.obj
+         .\Debug/StringTokenizer.obj
+         .\Debug/Example.obj
+         MFC_Main.vcxproj -> D:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\.\Debug\MFC_Main.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/MFC_Main.bsc" .\Debug\ExternDoc.sbr .\Debug\ExternView.sbr .\Debug\MainFrm.sbr .\Debug\MFC_Main.sbr .\Debug\MFC_MainDoc.sbr .\Debug\MFC_MainView.sbr .\Debug\StdAfx.sbr .\Debug\Clipping.sbr .\Debug\DrawFunc.sbr .\Debug\MsgView.sbr .\Debug\RubberBand.sbr .\Debug\Scroll.sbr .\Debug\Zoom.sbr .\Debug\usercode.sbr .\Debug\Math.sbr .\Debug\StringTokenizer.sbr .\Debug\Example.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\MFC_Main.unsuccessfulbuild".
+         Touching ".\Debug\MFC_Main.lastbuildstate".
+     1>Done Building Project "D:\2018년\서강대\컴실1\14주차\과제\컴실1_14주차과제_20171665\MFC_Main.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:51.49

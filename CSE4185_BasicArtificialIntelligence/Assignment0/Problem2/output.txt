@@ -1,0 +1,6 @@
+[(',', 40), ('-', 16), ('.', 15), ('(', 11), (')', 11), (';', 7), (':', 2), ('’', 1)]
+19
+AN IMAGE IS WORTH 16X16 WORDS TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE.
+While the Transformer architecture has become the defacto standard for natural language processing tasks its applications to computer vision remain limited.
+When trained on midsized datasets such as ImageNet without strong regularization these models yield modest accuracies of a few percentage points below ResNets of comparable size.
+This seemingly discouraging outcome may be expected Transformers lack some of the inductive biases inherent to CNNs such as translation equivariance and locality and therefore do not generalize well when trained on insufficient amounts of data.

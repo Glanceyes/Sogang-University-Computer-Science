@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCAfaceRecognition", "PCAfaceRecognition.vcxproj", "{79F5733B-D4E0-49E5-9E21-1B590CD7815A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Debug|Win32.Build.0 = Debug|Win32
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Debug|x64.ActiveCfg = Debug|x64
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Debug|x64.Build.0 = Debug|x64
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Release|Win32.ActiveCfg = Release|Win32
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Release|Win32.Build.0 = Release|Win32
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Release|x64.ActiveCfg = Release|x64
+		{79F5733B-D4E0-49E5-9E21-1B590CD7815A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1878304-1D90-46F9-AACB-674B82D9FCC6}
+	EndGlobalSection
+EndGlobal

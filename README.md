@@ -35,7 +35,7 @@ To access the materials in this archive, simply navigate to the directory corres
 
 <br/>
 
-> *Warning: This repository is intended to be used as a reference for learning purposes only. I strongly recommend that any attempt to cheat, plagiarize, or otherwise submit this work as one's own may be subject to result in disciplinary action in your course. I'm not responsible for this, so please use this repository ethically and responsibly.*
+> *Warning: This repository is intended to be used as a reference for learning purposes only. **I strongly recommend that any attempt to cheat, plagiarize, or otherwise submit this work as one's own may be subject to result in disciplinary action in your course.** I'm not responsible for this, so please use this repository ethically and responsibly.*
 
 <br/>
 
@@ -55,11 +55,11 @@ Sure! I worked hard in my school classes and received good grades on most assign
 
 This archive is a personal collection of my coursework during my time at Sogang University, and as such, contributions are not currently being accepted. However, feel free to use the materials in this archive for your own educational purposes. If you have any questions about the materials or how they were created, please feel free to contact me. 
 
-I'm afraid to inform that this GitHub repository consists of my own materials in undergraduate course, so the majortiy of code and reports are written in Korean.
+I'm afraid to inform that this GitHub repository consists of my own materials in undergraduate course, so the majortiy of comments and reports are written in Korean.
 
 <br/>
 
-> Please be aware that the course materials and assignments may differ from what I learned during the time I took this course, as it was not during the current semester.
+> *Please be aware that the course materials and assignments may differ from what I learned during the time I took this course, as it was not during the current semester.*
 
 <br/><br/>
 

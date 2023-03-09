@@ -1,0 +1,24 @@
+I A L
+S A
+I B L
+S B
+I C R
+S C
+I D R
+S D
+I E R
+S A
+I F L
+I G R
+S G
+I H L
+S H
+I I L
+S I
+I J L
+S G
+I M R
+S M
+I L R
+S A
+I K R

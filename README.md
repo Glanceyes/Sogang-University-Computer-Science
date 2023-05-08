@@ -11,7 +11,7 @@ This is a Sogang University Computer Science Archive, a collection of all practi
 | Directory                                                    | Course Name (Korean)  | Course Name (English)             | semester    |
 | ------------------------------------------------------------ | --------------------- | --------------------------------- | ----------- |
 | **[CSE2003_BasicEngineeringDesign](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE2003_BasicEngineeringDesign)** | 기초공학설계          | Basic Engineering Design          | Spring 2017 |
-| CSE2035_CProgramming                                         | C프로그래밍           | C Programming                     | Fall 2017   |
+| **CSE2035_CProgramming**                                     | C프로그래밍           | C Programming                     | Fall 2017   |
 | **[CSE3013_ComputerEngineeringExperiment1](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE3013_ComputerEngineeringExperiment1)** | 컴퓨터공학설계및실험I | Computer Engineering Experiment 1 | Fall 2018   |
 | **[CSE3016_ComputerEngineeringExperiment2](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE3016_ComputerEngineeringExperiment2)** | 컴퓨터공학실험II      | Computer Engineering Experiment 2 | Fall 2018   |
 | **[CSE3030_AssemblyLanguage](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE3030_AssemblyLanguage)** | 어셈블리언어          | Assembly Language                 | Spring 2018 |
@@ -25,8 +25,8 @@ This is a Sogang University Computer Science Archive, a collection of all practi
 | **[CSE4152_AdvancedSoftwarePractice](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE4152_AdvancedSoftwarePractice)** | 고급소프트웨어실습    | Advanced Software Practice        | Fall 2022   |
 | **[CSE4170_BasicComputerGraphics](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE4170_BasicComputerGraphics)** | 기초컴퓨터그래픽스    | Basic Computer Graphics           | Spring 2023 |
 | **[CSE4185_BasicArtificialIntelligence](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE4185_BasicArtificialIntelligence)** | 기초인공지능          | Basic Artificial Intelligence     | Fall 2022   |
-| [CSE4186_CapstoneDesign1]()                                  | 캡스톤디자인1         | Capstone Design 1                 | Spring 2023 |
-| [CSEG311_SpeechRecognition]()                                | 음성인식              | Speech Recognition                | Spring 2023 |
+| **[CSE4186_CapstoneDesign1](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSE4186_CapstoneDesign1)** | 캡스톤디자인1         | Capstone Design 1                 | Spring 2023 |
+| **[CSEG311_SpeechRecognition](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSEG311_SpeechRecognition)** | 음성인식              | Speech Recognition                | Spring 2023 |
 | **[CSEG418_ComputerVision](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/CSEG418_ComputerVision)** | 컴퓨터비전            | Computer Vision                   | Fall 2022   |
 
 <br/>
@@ -55,7 +55,7 @@ To access the materials in this archive, simply navigate to the directory corres
 
 <br/>
 
-> *Warning: This repository is intended to be used as a reference for learning purposes only. **I strongly recommend that any attempt to cheat, plagiarize, or otherwise submit this work as one's own may be subject to result in disciplinary action in your course.** I'm not responsible for this, so please use this repository ethically and responsibly.*
+> *Warning: This repository is intended to be used as a reference for learning purposes only. **I strongly recommend that any attempt to cheat, plagiarize, or otherwise submit this work as one's own may be subject to result in disciplinary action in one's course.** I'm not responsible for this, so please use this repository ethically and responsibly.*
 
 <br/>
 

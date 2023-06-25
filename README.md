@@ -39,7 +39,7 @@ This is a Sogang University Computer Science Archive, a collection of all practi
 | ------------------------------------------------------------ | -------------------- | ---------------------- | ----------- |
 | **[COR1001_ReadingWriting](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/COR1001_ReadingWriting)** | 읽기와쓰기           | Reading and Writing    | Spring 2017 |
 | **[COR1011_ComputationalThinking](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/COR1011_ComputationalThinking)** | 컴퓨팅사고력         | Computational Thinking | Spring 2017 |
-|                                                              |                      |                        |             |
+| **[MAT2420_AppliedMathematics](https://github.com/Glanceyes/Sogang-University-Computer-Science/tree/main/MAT2420_AppliedMathematics)** | 응용수학             | Applied Mathematics    | Fall 2022   |
 
 <br/>
 
